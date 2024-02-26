@@ -24,7 +24,7 @@ done
 fsum=summary_tblastn.txt
 
 echo -e "genomeID\c" > $fsum
-for Qgene in $(cat Qgenes.txt) ; do
+for Qgene in $(cat Q_genes_list.txt) ; do
   echo -e "\t$Qgene\c" >> $fsum
 done
 
@@ -33,7 +33,7 @@ echo "" >> $fsum
 for outf in $(ls outfiles/*out); do
   gname=$(basename "$outf" | sed 's/\..*//' )
   echo -e "$gname\c" >> $fsum
-  for Qgene in $(cat Qgenes.txt) ; do
+  for Qgene in $(cat Q_genes_list.txt) ; do
     n=$(grep -v '^#'  $outf  | awk -F '\t' -v g=$Qgene '$1==g&&$3>=20&&$11<=0.0000000001{print $1}' | wc -l)
     echo -e "\t$n\c" >> $fsum
   done

@@ -1,4 +1,5 @@
 # This file contains bash and python scripts and bash commands used in the manuscript below.
+# copy right and contact yuanyifeng@ufl.edu and vcrecy@ufl.edu.
 
 # The oncogene SLC35F2 is a high-specificity transporter for the micronutrients queuine and queuosine
 # Authors: Lyubomyr Burtnyaka, Yifeng Yuanb, Xiaobei Panc, Lankani Gunaratned, Gabriel Silveira D’Almeidad, \
@@ -19,9 +20,6 @@
 
 # *Corresponding authors: Valérie de Crécy-Lagard and Vincent P. Kelly
 # Email: vcrecy@ufl.edu; kellyvp@tcd.ie
-
-# scripts below performed on hpc.
-# copy right and contact yuanyifeng@ufl.edu.
 
 # I. select Q+ and Q- organisms.
 # 1. download protein sequences.

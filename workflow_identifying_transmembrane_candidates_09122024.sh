@@ -1,3 +1,24 @@
+# This file contains scripts and commands used in the manuscript below.
+# The oncogene SLC35F2 is a high-specificity transporter for the micronutrients queuine and queuosine
+# Authors: Lyubomyr Burtnyaka, Yifeng Yuanb, Xiaobei Panc, Lankani Gunaratned, Gabriel Silveira D’Almeidad, \
+# Maria Martinellib&, Colbie Reedc$, Jessie Fernandez Garciab, Bhargesh Indravadan Patele, Isaac Marquezf, \
+# Ann E. Ehrenhofer-Murraye, Manal A. Swairjof, Juan D. Alfonzod, Brian D. Greenc, Vincent P. Kellya* and Valérie de Crécy-Lagardb,g*
+
+# Author information
+# aSchool of Biochemistry & Immunology, Trinity Biomedical Sciences Institute, Trinity College Dublin, Dublin 2, Ireland
+# bDepartment of Microbiology and Cell Science, University of Florida, Gainesville, Florida 32611, USA
+# cSchool of Biological Sciences, Institute for Global Food Security, Queen's University Belfast, Belfast, UK
+# dDepartment of Molecular Biology, Cell Biology and Biochemistry and the Brown RNA Center, Brown University, Providence, Rhode Island 02903, USA
+# eInstitut für Biologie, Lebenswissenschaftliche Fakultät, Humboldt-Universität zu Berlin, 10115 Berlin, Germany
+# fDepartment of Chemistry and Biochemistry, San Diego State University, San Diego, California 92182, USA
+# gGenetic Institute, University of Florida, Gainesville, Florida 32611, USA
+
+# &Current address: eSTEAMed Learning Inc., Maitland, FL 32751, USA
+# $Current address: Data Science Institute, Medical College of Wisconsin, Milwaukee, Wisconsin 53226, USA
+
+# *Corresponding authors: Valérie de Crécy-Lagard and Vincent P. Kelly
+# Email: vcrecy@ufl.edu; kellyvp@tcd.ie
+
 # scripts below performed on hpc.
 # copy right and contact yuanyifeng@ufl.edu.
 

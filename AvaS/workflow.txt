@@ -1,0 +1,20 @@
+# copy right and contact yuanyifeng@ufl.edu and vcrecy@ufl.edu.
+# This file contains bash and python scripts and bash commands used in the manuscript below.
+
+# Pyridoxal phosphate-dependent biosynthesis of aminovaleramide by AVAS in tRNA
+# Authors: Jingjing Suna,§, Junzhou Wua,§, Yifeng Yuanb, Seetharamsing Balamkunduc, Agnieszka Dziergowskad, 
+# Hazel Chay Suen Suena, Dwijapriyaa, Cui Lianga, Grazyna Leszczyńskad, Laurence Drouarde, Steven D. Brunerf, 
+# Thomas J. Begleyg, Valérie de Crécy-Lagardb,h, Peter C. Dedona,i,*
+a Antimicrobial Resistance Interdisciplinary Research Group, Singapore-MIT Alliance for Research and Technology, 138602 Singapore
+b Department of Microbiology and Cell Science, University of Florida, Gainesville, FL 32611 USA
+c School of Biological Sciences, Nanyang Technological University, Singapore
+d Institute of Organic Chemistry, Lodz University of Technology, 90-924 Poland
+e Institut de biologie moléculaire des plantes-CNRS, Université de Strasbourg, Strasbourg F-67084, France
+f Department of Chemistry, University of Florida, Gainesville, Florida 32611, United States
+g Department of Biological Sciences and The RNA Institute, College of Arts and Science, University at Albany, SUNY, Albany, NY USA
+h Genetic Institute, University of Florida, Gainesville, FL 32611 USA
+i Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139 USA
+§ These authors contribute equally
+
+* Corresponding author. Email: pcdedon@mit.edu
+

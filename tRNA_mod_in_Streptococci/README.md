@@ -7,12 +7,15 @@ Authors: Ho-Ching Tiffany Tsui, Chi-Kong Chan, Yifeng Yuan, Roba Elias, Jingjing
 
 ## Dependencies
 MASH v2.3 https://github.com/marbl/mash
+
 seqkit v2.8.0 https://bioinf.shenwei.me/seqkit/
+
 python v3.12 https://www.python.org/
 
 ## Usage
 Preparation
 1. Retrive CDSs sequences of S. pnuemoniae strains and other Streptococcus strains in fasta format from NCBI (GCF_xxxx.ffn and GCA_xxx.ffn files) and put them in the working directory, for example $dir=work_dir, where GCF_xxx and GCA_xxx are NCBI assembly IDs.
+
 2. Prepare two txt file of NCBI assembly IDs for the S.pnuemoniae and other Streptococcus, for example, list_Spne.txt and list_other.txt.
 
 ## Help and Issues

@@ -35,9 +35,13 @@ mash dist -p 4 Spne_sketch.msh other_sketch.msh > mash_result.txt)
 sed 's#working_dir/##g' mash_result.txt | sort -k2,2n > mash_result_sort.txt
 ```
 
-4. Calculate the distance between genomes so the sum of distance is minimal.
+4. Clean the MASH result. Then, calculate the distance between genomes so the sum of distance is minimal.
 
 ```
+grep -v -E '^\s*$' remove_Qpattern_gid.txt | grep -F -v -f - mash_result_sort.txt > mash_result_clean.txt
+
+python select_minimal_value_per_gid1.py mash_result_clean.txt mash_res_minimum_by_gidSpne.txt
+
 python select_pair_with_global_minimal_distance.py mash_result_clean.txt mash_res_global_minimum.txt
 ```
 

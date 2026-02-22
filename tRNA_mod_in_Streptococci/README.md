@@ -18,6 +18,29 @@ Preparation
 
 2. Prepare two txt file of NCBI assembly IDs for the S.pnuemoniae and other Streptococcus, for example, list_Spne.txt and list_other.txt.
 
+3. calculate the distance between S. pnuemoniae strains and other Streptococcus genomes using MASH.
+
+```bash
+# -p threads
+# -l Lines in each <input> specify paths to sequence files, one per line.
+mash sketch -p 4 -o Spne_sketch -l list_Spne.txt
+
+mash sketch -p 4 -o other_sketch -l list_other.txt
+
+mash dist -p 4 Spne_sketch.msh other_sketch.msh > mash_result.txt)
+
+# check mash result
+# remove duplicate
+
+sed 's#working_dir/##g' mash_result.txt | sort -k2,2n > mash_result_sort.txt
+```
+
+4. Calculate the distance between genomes so the sum of distance is minimal.
+
+```
+python select_pair_with_global_minimal_distance.py mash_result_clean.txt mash_res_global_minimum.txt
+```
+
 ## Help and Issues
 Please contact Yifeng Yuan at yuanyifeng@ufl.edu
 
